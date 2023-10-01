@@ -4,7 +4,7 @@ tries = 0
 
 while True :
     try :
-        uplimit = int(input("What's your uplimit? (min 10) "))  #fix bug and must be bigger than 10 thing
+        uplimit = int(input("What's your uplimit? (min 10) "))
         if uplimit >= 10 : 
             break
         else :
